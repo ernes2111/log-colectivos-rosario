@@ -1,3 +1,5 @@
+🌐 [Read this in English](README_en.md)
+
 # 🚌 Log Colectivos Rosario
 
 Script en **Python** que consulta periódicamente el estado de llegada de colectivos en Rosario y guarda los datos en archivos **CSV semanales** para su posterior análisis.
@@ -88,3 +90,5 @@ Podés correr el script en segundo plano o configurar un **servicio del sistema*
 * Crear notebooks de análisis en **Jupyter**.
 * Generar gráficos de frecuencias y tiempos de espera.
 * Publicar dashboards en Power BI o Grafana.
+
+🌐 [Read this in English](README_en.md)
