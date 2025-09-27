@@ -91,8 +91,8 @@ Podés correr el script en segundo plano o configurar un **servicio del sistema*
 
 ## 📊 Próximos pasos
 
-* Crear notebooks de análisis en **Jupyter**. Status: Done ✓
-* Generar gráficos de frecuencias y tiempos de espera. Status: Done ✓
-* Publicar dashboards en Power BI o Grafana. Status: In progress...
+* Crear notebooks de análisis en **Jupyter**. ⏳ Status: Done ✓
+* Generar gráficos de frecuencias y tiempos de espera. ⏳ Status: Done ✓
+* Publicar dashboards en Power BI o Grafana. ⏳ Status: In progress...
 
 🌐 [Read this in English](README_en.md)
