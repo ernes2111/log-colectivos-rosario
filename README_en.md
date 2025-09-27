@@ -8,6 +8,9 @@ Python **script** that periodically queries bus arrival times in Rosario and sav
 
 ## 📌 Description
 
+The idea arose from the need to quickly and easily check arrival times on iOS devices, since the current app available on the Store lacks several features compared to the Android version. 
+This script was later implemented to build a solid database for analysis and ultimately reach a conclusion about the quality of public transportation service in Rosario, Santa Fe, Argentina.
+
 This project performs:
 
 * Fetching real-time bus arrival data for the defined stops.
@@ -33,7 +36,7 @@ CARPETA_LOGS = "/root/telegram_colectivos/logs"  # Folder where CSV files will b
 INTERVALO_MINUTOS = 5        # Time interval between queries
 ```
 
-📌 **Tip:** You can add or remove stop IDs as needed.
+📌 You can add or remove stop IDs as needed.
 📌 The logs folder will be created automatically if it does not exist.
 
 ---
@@ -87,8 +90,8 @@ You can run the script in the background or configure a **system service** (e.g.
 
 ## 📊 Next Steps
 
-* Create analysis notebooks using **Jupyter**.
-* Generate frequency and waiting time visualizations.
-* Publish dashboards using Power BI or Grafana.
+* Create analysis notebooks using **Jupyter**. ⏳ Status: Done ✓
+* Generate frequency and waiting time visualizations. ⏳ Status: Done ✓
+* Publish dashboards using Power BI or Grafana. ⏳ Status: In progress...
 
 🌐 [Leer en Español](README.md)
