@@ -8,6 +8,10 @@ Script en **Python** que consulta periódicamente el estado de llegada de colect
 
 ## 📌 Descripción
 
+La idea surgio ante la necedidad de poder realizar consultas de forma simple y rapida en dispositivos iOS sobre los tiempos de arribo, ya que
+la aplicacion actual que se encuentra en la Store carece de funcionalidades respecto a la version de Android. Luego se implemento en este script para poder
+construir una base de datos solida para su analisis y poder llegar a una conclusion final sobre la calidad del servicio en la ciudad de Rosario, Santa Fe, Argentina.
+
 Este proyecto realiza:
 
 * Consulta de arribos de colectivos en las paradas definidas.
@@ -33,8 +37,8 @@ CARPETA_LOGS = "/root/telegram_colectivos/logs"  # Carpeta donde se guardan los 
 INTERVALO_MINUTOS = 5        # Intervalo entre consultas
 ```
 
-📌 **Tip:** Podés agregar o quitar IDs de paradas según tus necesidades.
-📌 La carpeta de logs se crea automáticamente si no existe.
+📌 Se puede agregar o quitar IDs de paradas según las necesidades.
+📌 La carpeta de "logs" se crea automáticamente si no existe.
 
 ---
 
@@ -87,8 +91,8 @@ Podés correr el script en segundo plano o configurar un **servicio del sistema*
 
 ## 📊 Próximos pasos
 
-* Crear notebooks de análisis en **Jupyter**.
-* Generar gráficos de frecuencias y tiempos de espera.
-* Publicar dashboards en Power BI o Grafana.
+* Crear notebooks de análisis en **Jupyter**. Status: Done ✓
+* Generar gráficos de frecuencias y tiempos de espera. Status: Done ✓
+* Publicar dashboards en Power BI o Grafana. Status: In progress...
 
 🌐 [Read this in English](README_en.md)
