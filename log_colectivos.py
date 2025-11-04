@@ -5,9 +5,9 @@ import os
 import time
 
 # === CONFIGURACIÓN ===
-PARADAS = ["7881", "5742"]  # 🔧 Podés agregar más paradas si querés
+PARADAS = ["7881", "5742"]  # Lista de IDs de paradas a monitorear (se pueden agregar más si se desea)
 CARPETA_LOGS = "/root/telegram_colectivos/logs"  # Guardaremos un CSV por semana
-INTERVALO_MINUTOS = 5  # Cada cuántos minutos recolectar datos
+INTERVALO_MINUTOS = 5  # Cada cuántos minutos vamos a recolectar datos
 
 def obtener_nombre_archivo():
     """Genera nombre de archivo basado en año y número de semana ISO"""
